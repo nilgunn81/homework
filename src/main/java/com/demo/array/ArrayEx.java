@@ -1,8 +1,8 @@
-package com.demo;
+package com.demo.array;
 
 import java.util.Arrays;
 
-public class Array {
+public class ArrayEx {
     public static int getThirdLargeNumberInArray(int[]array,int total){
         Arrays.sort(array);
         return array[total-3];

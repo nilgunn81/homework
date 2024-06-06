@@ -2,7 +2,7 @@ package com.demo;
 
 import java.util.ArrayList;
 
-public class List {
+public class ListEx {
     public static boolean isPrime(int number) {
         if (number <= 1) {
             return false;

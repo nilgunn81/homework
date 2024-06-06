@@ -1,10 +1,11 @@
-package com.demo;
+package com.demo.linkedlist;
 
+import java.util.LinkedList;
 import java.util.List;
 
-public class LinkedList {
+public class LinkedListEx{
     public static void main(String[] args) {
-        List<Integer> numbers = (List<Integer>) new LinkedList();
+        List<Integer> numbers = new LinkedList<>();
 
         numbers.add(1);
         numbers.add(2);
